@@ -1,0 +1,24 @@
+# Local Python virtual environment
+.venv/
+
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/*
+
+# Local data and secrets
+data/
+.env
+
+# Editor/OS files
+.DS_Store
+.vscode/
+.idea/
